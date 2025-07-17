@@ -15,7 +15,7 @@ int vectorLinearSearch(vector<int> vec, int target)
     return -1;
 }
 
-void reverseTheVector(vector<int>& nums)
+void reverseTheVector(vector<int> &nums)
 {
     int start = 0;
     int end = nums.size() - 1;
@@ -30,15 +30,16 @@ void reverseTheVector(vector<int>& nums)
     {
         cout << i << " ";
     }
-    cout<<endl;
+    cout << endl;
 }
 int main()
 {
     vector<int> vec = {1, 2, 3, 4, 5, 6, 7};
     // cout<<vectorLinearSearch(vec,71);
     reverseTheVector(vec);
-    cout<<"Vector after reverse : "<<endl;
-    for(int i : vec){
-        cout<<i<<" ";
+    cout << "Vector after reverse : " << endl;
+    for (int i : vec)
+    {
+        cout << i << " ";
     }
 }
