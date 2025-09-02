@@ -15,6 +15,7 @@ void printOneToN(int i, int n) // print 1 to n using recursion
     }
     cout << i << endl;
     printOneToN(i + 1, n);
+    printOneToN(i + 1, n);
 }
 
 // void print_n_to_One(int i, int n)  //print n to 1 using recursion
