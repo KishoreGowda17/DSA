@@ -20,7 +20,7 @@ int main()
 
     int q;
     cin >> q;
-    while (q--)
+    while (q--) 
     {
         int number;
         cin >> number;
