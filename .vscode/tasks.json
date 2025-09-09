@@ -1,6 +1,3 @@
-//Author : Mehedi Hasan Shifat
-//date:11th Feb,2020
-//Task:shortcut to run a cpp file which will take input and show output of the programme automatically with programme runtime status such as memory comsume and execution time
 {
   "version": "2.0.0",
   "tasks": [
@@ -32,12 +29,18 @@
       ],
       "presentation": {
         "reveal": "silent",
-        "panel": "shared",
-        "clear": true
+        "clear": true,
+        "echo": true,
+        // "close": true,
+        // "focus": true,
+        // "panel": "shared",
+        "revealProblems": "onProblem",
+        "showReuseMessage": false,
+
       },
       "group": {
         "kind": "build",
-        "isDefault": true
+        "isDefault": true,
       },
       "problemMatcher": {
         "owner": "cpp",
@@ -52,14 +55,6 @@
           "column": 3,
           "severity": 4,
           "message": 5
-        }
-      },
-      "options": {
-        "shell": {
-          "executable": "cmd.exe", // Using CMD to run the tasks
-          "args": [
-            "/c" // Carries out the command specified by string and then terminates
-          ]
         }
       }
     }

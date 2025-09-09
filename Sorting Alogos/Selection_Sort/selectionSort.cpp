@@ -13,10 +13,10 @@ void selection_sort(int arr[], int n)
             {
                 mini = j;
             }
-            swap(arr[mini], arr[i]);
         }
+        swap(arr[mini], arr[i]);
     }
-}
+} 
 
 int main()
 {
